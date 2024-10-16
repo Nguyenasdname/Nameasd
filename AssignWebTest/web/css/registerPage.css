@@ -1,0 +1,192 @@
+body{
+    background-image: url(/assets/img/knightBackGround.png);
+    background-repeat: no-repeat;
+    background-color: rgb(28, 25, 25);
+    background-size: 50vw 100vh;
+    background-attachment: fixed;
+}
+
+.baseCard{
+    margin-top: 50px;
+    background-color: rgba(255, 146, 83,0.6);
+    border-radius: 10px;
+    position: relative;
+}
+
+.registerCard{
+    text-align: center;
+    background-color: rgba(255, 146, 83,0.3);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-right: 400px; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.titleRegister{
+    margin-bottom: 50px;
+}
+.username input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.email input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid white;
+}
+.phonenumber input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid white;
+}
+
+
+
+.date{
+    display: flex;
+    justify-content: center;
+}
+.date select{
+    cursor: pointer;
+    border: solid white;
+    border-radius: 10px;
+    width: 116.5px;
+    height: 45px;
+    transition: 0.6s ease;
+    border: solid white;
+}
+
+.date select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.day{
+    margin: 0 10px;
+}
+.month{
+    margin: 0 10px;
+}
+.year{
+    margin: 0 10px;
+}
+.password input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid white;
+}
+.comfirm_password input{
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.Create{
+    margin-top: 70px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+    width: 400px;
+    border: solid black;
+}
+
+
+.Create:hover{
+    border:  solid white;
+    transform: scale(1.03);
+    background-color: white;
+    color: black;
+}
+
+.footer{
+    margin-top: 20px;
+    height: 100px;
+    background-color: rgba(28, 25, 25,0.7);
+}
+
+.navCard{
+    border-radius: 15px;
+    background-color: rgba(255, 166, 0, 0.371);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.login{
+    
+    text-align: center;
+    display: flex;
+    
+}
+
+.login input{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 40px;
+    
+}
+
+.inputUP{
+    
+    padding-right: 10px;
+    
+}
+.inputUP input{
+    width: 300px;
+    border: solid white;
+}
+
+.logo_nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo_nav div{
+    margin-top: 18px;
+    font-weight: bolder
+}
+
+.logo_nav img{
+    border-radius: 30px;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    transform: scale(0.8);
+}
+
+.login_card{
+    border: solid black;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 110px;
+    height: 40px;
+    transition: 0.6s ease;
+}
+
+.login_card:hover{
+    border: solid white;
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+}
